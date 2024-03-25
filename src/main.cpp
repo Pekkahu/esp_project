@@ -5,8 +5,8 @@
 #include <ArduinoOTA.h>
 
 GPIOViewer gpio_viewer;
-char ssid1[] = "JBPhadtare"; // WIFI NETWORKS NAME
-char password1[] = "9773829430"; // PASSWORD 
+char ssid1[] = "yourWiFiName"; // WIFI NETWORKS NAME
+char password1[] = "Password"; // PASSWORD 
 
 void initWifi(char ssid[], char password[]) {
     WiFi.disconnect();
